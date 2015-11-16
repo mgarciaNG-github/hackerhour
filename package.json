@@ -1,0 +1,19 @@
+{
+  "name": "1nodeinstall",
+  "version": "1.0.0",
+  "description": "this is a demo of building a simple node site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bower": "^1.6.5",
+    "express": "^4.13.3",
+    "faker": "^3.0.1",
+    "mongodb": "^2.0.48",
+    "mssql": "^2.3.2"
+  }
+}

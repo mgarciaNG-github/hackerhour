@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="1nodeinstall" ng-controller="mainController" >
+    <div>
+        <!--
+        <h1>This is just an html</h1>
+        <br>
+        <h2>{{'this is from angular' + 100/5}}</h2>
+        <br>
+        <h2>{{showSomething()}}</h2>-->
+        <div>
+            <h1>{{patient}}</h1>
+        </div>
+        <input type="text" ng-model="patient._id">Patient id</input>
+        <br>
+        <input type="text" ng-model="patient.first_name">First Name</input>
+        <br>
+        <input type="text" ng-model="patient.last_name">Last Name</input>
+        <br>
+        <input type="text" ng-model="patient.age">Age</input>
+        <br>
+        <input type="button" ng-click="savePatient(patient)" name="Save Patient" value="Save Patient">
+
+    </div>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/mainController.js"></script>
+    <script src="services/service1.js"></script>
+
+</body>
+</html>
